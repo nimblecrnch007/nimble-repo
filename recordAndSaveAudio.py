@@ -34,7 +34,7 @@ p.terminate()
 
 # now saving recorded audio onto a .wav file:
 wavfile = wave.open(OUTPUT_WAVEFILE, 'wb')
-wavfilef.setnchannels(CHANNELS)
+wavfile.setnchannels(CHANNELS)
 wavfile.setsampwidth(p.get_sample_size(FORMAT))
 wavfile.setframerate(RATE)
 wavfile.writeframes(b''.join(frames))
