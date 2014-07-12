@@ -23,8 +23,8 @@ while data != '':
     data = wavfile.readframes(CHUNK)
 
 # stop and then close output stream
-stream.stop_stream()
-stream.close()
+ouputStream.stop_stream()
+outputStream.close()
 
 # close file
 wavfile.close()
