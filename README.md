@@ -8,3 +8,4 @@ For more detailed audio processing functionality and documentation, http://porta
 Contents of this repo:
 - recordAndSave.py  Script to record real-time audio from primary mic and save it as a .wav.
 - playwav.py  Script to play a stored .wav file.
+- wavplot.py  Script to plot a .wav time samples in the time domain.
